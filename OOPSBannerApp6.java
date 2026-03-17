@@ -43,6 +43,7 @@ public class Main {
         String[] P = banner.buildP();
         String[] S = banner.buildS();
 
+	System.out.println("Printed the values...");
         for (int i = 0; i < O1.length; i++) {
             System.out.println(O1[i] + "   " +
                     O2[i] + "   " +
